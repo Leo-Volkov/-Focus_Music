@@ -1,0 +1,28 @@
+header .logo-text {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: -7px;
+}
+
+  header .nav-link {
+      color: gray;
+      font-size: 19px;
+  }
+  
+  header .nav-link:hover, .nav-link:focus {
+      color: #fc0;
+  }
+  
+  header .nav-link:active {
+      color: red;
+  }
+
+header ul hr {
+    margin: 0;
+}
+
+.plus-bedge {
+    font-size: 15px;
+    padding: 9px;
+    background: linear-gradient(101.67deg,#48cce0 7.24%,#505add 34.12%,#be40c0 62.93%,#fba82b 92.22%);
+}

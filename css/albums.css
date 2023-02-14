@@ -1,0 +1,12 @@
+.list-group-item:hover {
+    outline: 4px solid #ffdb4d;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.list-group-item:active {
+    transform: scale(1.01);
+}
+.i_albums {
+    margin-bottom: 20px;
+}

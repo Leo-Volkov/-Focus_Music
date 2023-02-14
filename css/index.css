@@ -1,0 +1,28 @@
+.albums .col-3{
+    margin: 0px 0px 10px 0px;
+}
+.albums .card:hover {
+    outline: 6px solid #ffdb4d;
+}
+
+.albums a {
+    color: #666666;
+}
+
+.row {
+    --bs-gutter-y: 25px;
+}
+.card {
+    font-size: 16px;
+    font-weight: 800;
+    border: 0;
+    border: 3px solid/*тип рамки: double, dashed*/rgb(250, 204, 0);
+    border-radius: 100px;
+}
+
+@media (max-width: 599px) {
+    .card p {
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
